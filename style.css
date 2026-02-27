@@ -1,0 +1,142 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+h1{
+    padding: 1%;
+}
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgb(0, 110, 255);
+    color: aliceblue;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    color: aliceblue;
+    padding: 1%;
+    text-decoration: none;
+    transition: 0.5s;
+}
+a:hover{
+    color: rgb(208, 218, 226);
+    background-color: rgb(0, 60, 255);
+    border-radius: 15px;
+    padding: 2%;
+}
+#about{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: url('psico.jpeg');
+    background-repeat: no-repeat; /* Não repete a imagem */
+    background-size: cover;       /* Cobre toda a tela */
+    background-position: center;  /* Centraliza a imagem */
+    color: aliceblue;
+    padding: 2%;
+}
+#p{
+    text-align: center;
+    width: 40%;
+}
+#sobre{
+    text-align: left;
+    padding: 2%;
+}
+#reviews{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: aliceblue;
+    color: rgb(0, 110, 255);
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.review-item{
+    background-color: rgb(0, 60, 255);
+    color: aliceblue;
+    width: 30%;
+    margin: 2%;
+    border-radius: 10px;
+    padding: 5px;
+    transition: 0.5s;
+}
+.review-item:hover{
+    background-color: rgb(13, 13, 172);
+    color: rgb(204, 212, 219);
+    width: 31%;
+}
+#h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: aliceblue;
+    color: rgb(0, 110, 255);
+}
+iframe{
+    width: 100%;
+}
+#location{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgb(0, 110, 255);
+    color: aliceblue;
+    padding: 15px;
+}
+#contact{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: aliceblue;
+    color: rgb(0, 110, 255);
+    padding: 2%;
+}
+#agnd{
+    padding: 2%;
+}
+input{
+    background-color: rgb(0, 60, 255);
+    border: none;
+    border-radius: 10px;
+    padding: 1%;
+    margin: 1%;
+    color: aliceblue;
+}
+textarea{
+    background-color: rgb(0, 60, 255);
+    border: none;
+    border-radius: 10px;
+    padding: 1%;
+    margin: 1%;
+    color: aliceblue;
+    width: 90%;
+}
+button{
+    background-color: rgb(0, 60, 255);
+    border: none;
+    border-radius: 10px;
+    padding: 1%;
+    margin: 1%;
+    color: aliceblue;
+}
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: aliceblue;
+    color: rgb(0, 110, 255);
+    padding: 3%;
+}
+#wtp{
+
+    background-color: chartreuse;
+    border-radius: 15px;
+  color: #fff; /* Cor do texto (branca ajuda a destacar) */
+  text-shadow: 
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #49ff18, /* Cor principal do brilho (neon) */
+    0 0 40px #49ff18,
+    0 0 80px #49ff18;
+}
